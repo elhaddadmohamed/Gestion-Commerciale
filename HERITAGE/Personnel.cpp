@@ -3,7 +3,7 @@
 //  HERITAGE
 //
 //  Created by EL HADDAD  on 25/05/2018.
-//  Copyright © 2018 EL HADDAD MOHAMED. All rights reserved.
+//  Copyright © 2018 EL HADDAD MOHAMMED. All rights reserved.
 //
 #include "Personnel.hpp"
 #include <iostream>
