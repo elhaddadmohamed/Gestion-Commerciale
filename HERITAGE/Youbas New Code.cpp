@@ -3,7 +3,7 @@
 //  HERITAGE
 //
 //  Created by EL HADDAD  on 25/05/2018.
-//  Copyright © 2018 EL HADDAD MOHAMMED. All rights reserved.
+//  Copyright © 2018 EL HADDAD MOHAMED. All rights reserved.
 //
 #include "Personnel.hpp"
 #include <iostream>
@@ -13,7 +13,7 @@ void Personnel::embaucher(Employe* newbie){
     TabEmploye.push_back(newbie);
 }
 
-void Personnel::licensie(Employe* newbie){
+void Personnel::debaucher(Employe* newbie){
     vector<Employe*>::iterator it;
     for( it = TabEmploye.begin() ; it!=TabEmploye.end(); it++){
         if( (*(*it)) ==(*newbie) )
